@@ -24,7 +24,7 @@ class Random extends Component {
           <button className="button" onClick={this.buttonClick} type="button">
             Generate
           </button>
-          <h1 className="heading">{number}</h1>
+          <p className="heading">{number}</p>
         </div>
       </div>
     )
